@@ -143,7 +143,7 @@ class MICO_CPT_Performances {
 				'hierarchical'       => false,
 				'menu_position'      => null,
 				'supports'           => array('title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments', 'revisions'),
-				'menu_icon'          => 'dashicons-tickets'
+				'menu_icon'          => 'dashicons-tickets-alt'
 			);
 			register_post_type( 'performance', $args );
 
